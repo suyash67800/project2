@@ -1,0 +1,161 @@
+.header {
+    
+    padding: 80px; /* some padding */
+    text-align: center; /* center the text */
+    background: #1abc9c; /* green background */
+    color: rgb(6, 6, 6); /* white text color */
+  }
+  
+  /* Increase the font size of the <h1> element */
+  .header h1 {
+    font-size: 40px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .topnav .search-container {
+    float: right;
+  }
+  
+  /* Style the input field inside the navbar */
+  .navbar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  /* Style the button inside the input container */
+  .navbar .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 12px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navbar .search-container button:hover {
+    background: #ccc;
+  }
+  
+  /* Add responsiveness - On small screens, display the navbar vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .navbar .search-container {
+      float: none;
+    }
+    .navbar a, .navbar input[type=text], .navbar .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .nav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+
+
+
+  .Quicklinks {
+    display: flex;
+     flex: auto;
+     flex-direction: row;
+  
+    background-color: #333;
+    
+  
+  
+  }
+  .Qcontent{
+    justify-content: space-between;
+    padding:5%;
+    
+    color: #ccc;
+      
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      border: #1abc9c;
+      margin: auto;
+      
+      background-color: #333;
+  
+  }
+  .footer{
+    justify-content: space-around;
+  background-color:cornsilk;
+  display: flex;
+  flex-direction: row;
+  }
+ 
